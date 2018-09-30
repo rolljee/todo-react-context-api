@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import {  ListGroupItem } from 'react-bootstrap';
+import { ListGroupItem } from 'react-bootstrap';
 
 class Task extends Component {
     render() {
