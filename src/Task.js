@@ -1,24 +1,23 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import {  ListGroupItem } from 'react-bootstrap';
-import './App.css';
 
-class App extends Component {
+class Task extends Component {
     render() {
         return (
             <span>
-                <ListGroupItem href="#link1">{this.props.text}</ListGroupItem>
+                <ListGroupItem href="/">{this.props.text}</ListGroupItem>
             </span>
         );
     }
 }
 
-App.propTypes = {
+Task.propTypes = {
     text: PropTypes.string,
 }
 
-App.defaultProps = {
+Task.defaultProps = {
     text: '',
 }
 
-export default App;
+export default Task;
